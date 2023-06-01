@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Kare';
+  src: url('fonts/Kare-Trial.otf');
+}
+
+@font-face {
+  font-family: 'Glacial';
+  src: url('fonts/GlacialIndifference-Regular.otf');
+}
+
+h1 {
+  font-family: 'Kare', sans-serif;
+  color: #c65d29;
+}
+
+h2, a {
+  font-family: 'Glacial', sans-serif;
+}
