@@ -1,3 +1,12 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.recipes {
+  align-self: center;
+}
+
 @font-face {
   font-family: 'Kare';
   src: url('fonts/Kare-Trial.otf');
@@ -13,6 +22,12 @@ h1 {
   color: #c65d29;
 }
 
-h2, a {
+h2, h3, h4, li, ul  {
   font-family: 'Glacial', sans-serif;
+}
+
+.banner {
+  height: 100vh; /* Set the height to 100% of viewport height */
+  width: 50%; /* Maintain the original width aspect ratio */
+  /* object-fit: cover; Ensure the entire image is displayed */
 }
