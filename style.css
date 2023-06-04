@@ -20,14 +20,48 @@ main {
 h1 {
   font-family: 'Kare', sans-serif;
   color: #c65d29;
+  align-self: flex-start;
+  font-size: 50px;
 }
 
 h2, h3, h4, li, ul  {
   font-family: 'Glacial', sans-serif;
 }
 
-.banner {
-  height: 100vh; /* Set the height to 100% of viewport height */
-  width: 50%; /* Maintain the original width aspect ratio */
-  /* object-fit: cover; Ensure the entire image is displayed */
+
+.recipes {
+  list-style-image:url("images/cutlery.png") ;
+  padding: 10px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 200px;
+}
+
+li::marker {
+  padding-top: 10px;
+  align-self: center;
+}
+
+a:visited {
+  color:#c65d29
+}
+
+.heading {
+  margin-top: 100px;
+}
+
+.tinga {
+  flex-direction: column;
+  text-align: center;
+}
+
+.alpastor {
+  flex-direction: column;
+  text-align: center;
+}
+
+.pazole {
+  flex-direction: column;
+  text-align: center;
 }
