@@ -55,7 +55,7 @@ li::marker {
 }
 
 a:visited {
-  color:#c65d29
+  color:#c65d29 
 }
 
 .heading {
@@ -75,4 +75,16 @@ a:visited {
 .pazole {
   flex-direction: column;
   text-align: center;
+}
+
+ol li, ul li {
+  text-align: justify;
+  margin: auto;
+  width: 50%; 
+}
+
+.recipe {
+  background:white ;
+  opacity:0.7 ;
+  border-radius: 10%;
 }
