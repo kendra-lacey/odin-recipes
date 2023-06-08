@@ -65,16 +65,25 @@ a:visited {
 .tinga {
   flex-direction: column;
   text-align: center;
+  background:white ;
+  opacity:0.7 ;
+  border-radius: 10%;
 }
 
 .alpastor {
   flex-direction: column;
   text-align: center;
+  background:white ;
+  opacity:0.7 ;
+  border-radius: 10%;
 }
 
 .pazole {
   flex-direction: column;
   text-align: center;
+  background:white ;
+  opacity:0.7 ;
+  border-radius: 10%;
 }
 
 ol li, ul li {
@@ -83,8 +92,7 @@ ol li, ul li {
   width: 50%; 
 }
 
-.recipe {
-  background:white ;
-  opacity:0.7 ;
-  border-radius: 10%;
+
+img {
+  border-radius: 15%;
 }
